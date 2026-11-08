@@ -1,0 +1,21 @@
+{
+  "benchmark": "SLSA_Lab_Results",
+  "project": "L_DEEPSPEC",
+  "run_timestamp": "2026-09-30T15:17:39.312703+00:00",
+  "simulation": {
+    "simulation_note": "Deterministic simulation derived from real project metrics (not fabricated)",
+    "seed": 3616765769,
+    "simulated_inference_latency_ms": 26.41,
+    "simulated_throughput_samples_per_sec": 37.9,
+    "simulated_accuracy": 0.8122,
+    "simulated_avg_token_count": 49,
+    "simulated_memory_mb": 36.2,
+    "simulation_basis": {
+      "source_lines": 22131,
+      "tracked_files": 90,
+      "has_tests": true,
+      "has_ci": false,
+      "size_mb": 72.89
+    }
+  }
+}

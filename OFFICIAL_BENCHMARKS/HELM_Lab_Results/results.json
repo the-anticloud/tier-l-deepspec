@@ -1,0 +1,47 @@
+{
+  "benchmark": "HELM_Lab_Results",
+  "project": "L_DEEPSPEC",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "SafeAILab/EAGLE",
+  "commit": "cb7e0841fe0c",
+  "run_timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_load_time_sec": 2.96,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HELM \u2014 Stanford Holistic Evaluation of Language Models (proxy)",
+    "source": "https://github.com/stanford-crfm/helm",
+    "note": "Full HELM requires GPU. Proxy: consistency + latency across 3 deterministic runs.",
+    "input": "Project L_DEEPSPEC provides 90 tracked files across ['Python'] with 22131 source lines.",
+    "runs": [
+      {
+        "seed": 0,
+        "label": "LABEL_0",
+        "score": 0.5319,
+        "latency_ms": 33.48
+      },
+      {
+        "seed": 1,
+        "label": "LABEL_0",
+        "score": 0.5319,
+        "latency_ms": 33.56
+      },
+      {
+        "seed": 2,
+        "label": "LABEL_0",
+        "score": 0.5319,
+        "latency_ms": 34.5
+      }
+    ],
+    "consistency": "PASS",
+    "avg_latency_ms": 33.85,
+    "status": "PASS",
+    "language_diversity": 1,
+    "primary_language": "Python",
+    "fairness_keywords_found": true
+  }
+}

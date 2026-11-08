@@ -1,0 +1,42 @@
+{
+  "benchmark": "SLSA_Lab_Results",
+  "project": "L_DEEPSPEC",
+  "timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "reproducibility_spec": {
+    "framework": "Anticloud Benchmark Reproducibility Standard v1",
+    "based_on": "HELM reproducibility principles (stanford-crfm/helm)",
+    "source": "https://github.com/stanford-crfm/helm"
+  },
+  "environment": {
+    "platform": "win32",
+    "python_version": "3.12.10",
+    "os": "nt",
+    "working_dir": "E:\\fenta\\Downloads\\The Anticloud"
+  },
+  "inputs": {
+    "project_name": "L_DEEPSPEC",
+    "slug": "SafeAILab/EAGLE",
+    "commit": "cb7e0841fe0c",
+    "tracked_files": 90,
+    "source_lines": 22131,
+    "licence": "Apache-2.0",
+    "size_mb": 72.89
+  },
+  "inputs_hash": "5dfe91768f60cf6573684d97436a50b326d47c18fc695044ec3e1fe104512954",
+  "outputs": {
+    "results_file": "TIER_4_INFERENCE_AGENTS\\L_DEEPSPEC\\OFFICIAL_BENCHMARKS\\SLSA_Lab_Results\\results.json",
+    "results_sha256": "b1f4b5b43accba7ecaf067716d244d00fd0e89a9613855ece5c46a1260e1f39f"
+  },
+  "reproduction_steps": [
+    "1. Clone Anticloud at commit HEAD",
+    "2. Ensure E:\\fenta\\Downloads\\The Anticloud is present",
+    "3. Run: python run_benchmarks_comprehensive.py",
+    "4. Run: python write_benchmark_subfolders.py",
+    "5. Run: python write_ledgers_repro_extra_benchmarks.py",
+    "6. Verify results_sha256 matches sha256(OFFICIAL_BENCHMARKS/SLSA_Lab_Results/results.json)"
+  ],
+  "hf_model": "distilbert-base-uncased",
+  "hf_source": "https://huggingface.co/distilbert-base-uncased",
+  "random_seeds": "N/A - deterministic static analysis + HF greedy decoding",
+  "notes": "TRL/OSINT/OWASP/SOC2/ISO27001/MITRE/NIST use static code analysis. HF uses live CPU inference."
+}

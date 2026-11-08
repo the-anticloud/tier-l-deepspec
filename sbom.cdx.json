@@ -1,0 +1,102 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:26b921fc-ee5a-5dbf-a06a-b5227990f8ea",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:03:58Z",
+    "component": {
+      "type": "application",
+      "name": "L_DEEPSPEC",
+      "version": "cb7e0841fe0c",
+      "bom-ref": "pkg:generic/anticloud/L_DEEPSPEC@cb7e0841fe0c",
+      "purl": "pkg:generic/anticloud/L_DEEPSPEC@cb7e0841fe0c",
+      "licenses": [
+        {
+          "license": {
+            "id": "UNKNOWN"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "cb7e0841fe0c206c6ed74a197ad5e2a1f13f5a2b"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/SafeAILab/EAGLE.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "torch",
+      "version": "==2.0.1",
+      "purl": "pkg:pypi/torch@2.0.1",
+      "bom-ref": "pypi/torch@==2.0.1"
+    },
+    {
+      "type": "library",
+      "name": "transformers",
+      "version": "==4.46.2",
+      "purl": "pkg:pypi/transformers@4.46.2",
+      "bom-ref": "pypi/transformers@==4.46.2"
+    },
+    {
+      "type": "library",
+      "name": "accelerate",
+      "version": "==0.21.0",
+      "purl": "pkg:pypi/accelerate@0.21.0",
+      "bom-ref": "pypi/accelerate@==0.21.0"
+    },
+    {
+      "type": "library",
+      "name": "fschat",
+      "version": "==0.2.31",
+      "purl": "pkg:pypi/fschat@0.2.31",
+      "bom-ref": "pypi/fschat@==0.2.31"
+    },
+    {
+      "type": "library",
+      "name": "gradio",
+      "version": "==3.50.2",
+      "purl": "pkg:pypi/gradio@3.50.2",
+      "bom-ref": "pypi/gradio@==3.50.2"
+    },
+    {
+      "type": "library",
+      "name": "openai",
+      "version": "==0.28.0",
+      "purl": "pkg:pypi/openai@0.28.0",
+      "bom-ref": "pypi/openai@==0.28.0"
+    },
+    {
+      "type": "library",
+      "name": "anthropic",
+      "version": "==0.5.0",
+      "purl": "pkg:pypi/anthropic@0.5.0",
+      "bom-ref": "pypi/anthropic@==0.5.0"
+    },
+    {
+      "type": "library",
+      "name": "sentencepiece",
+      "version": "==0.1.99",
+      "purl": "pkg:pypi/sentencepiece@0.1.99",
+      "bom-ref": "pypi/sentencepiece@==0.1.99"
+    },
+    {
+      "type": "library",
+      "name": "protobuf",
+      "version": "==3.19.0",
+      "purl": "pkg:pypi/protobuf@3.19.0",
+      "bom-ref": "pypi/protobuf@==3.19.0"
+    }
+  ]
+}

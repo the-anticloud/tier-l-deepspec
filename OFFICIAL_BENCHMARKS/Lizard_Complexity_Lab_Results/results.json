@@ -1,0 +1,14 @@
+{
+  "benchmark": "Lizard_Complexity_Lab_Results",
+  "project": "L_DEEPSPEC",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/terryyin/lizard",
+  "results": {
+    "framework": "Lizard \u2014 Multi-Language Complexity Analyzer",
+    "source": "https://github.com/terryyin/lizard",
+    "total_functions": null,
+    "avg_cyclomatic_complexity": null,
+    "status": "SKIP",
+    "raw_output": "================================================\n  NLOC    CCN   token  PARAM  length  location  \n------------------------------------------------\n       5      2     31      2       9 truncate_list@16-24@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_DEEPSPEC\\UPSTREAM\\eagle\\application\\webui.py\n       4      2     42      1       7 find_list_markers@30-36@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_DEEPSPEC\\UPSTREAM\\eagle\\application\\webui.py\n       7      4     36      3       7 checkin@39-45@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_DEEPSPEC\\UPSTREAM\\eagle\\application\\webui.py\n      18      5    114      3      28 highlight_text@47-74@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_DEEPSPEC\\UPSTREAM\\eagle\\application\\webui.py\n      18      5    136      1      19 warmup@77-95@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_DEEPSPEC\\UPSTREAM\\eagle\\application\\webui.py\n     100     20    767      6     110 bot@97-206@E:"
+  }
+}
